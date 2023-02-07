@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="WebMilan" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Проэкт дискорд нитро генератор на Python</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="flowplay/flowplayer-3.2.2.min.js"></script>
+    <style>
+      .minus-margin-top {
+        margin-top: -10px;
+      }
+    </style>
+  </head>
+  <body style="background: url(images/discord-nitro-wallpaper.png)">
+    <!--Меню панель-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="images/icon.png" alt="Milan logo" width="40" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                title="Главная страница"
+                class="nav-link active"
+                aria-current="page"
+                href="index.html"
+              >
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                title="Список моих IT проэктов"
+                class="nav-link active"
+                href="projects.html"
+                >Projects</a
+              >
+            </li>
+            <li class="nav-item"></li>
+            <li class="nav-item"></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div align="center">
+      <a href="video/discord-nitro.mp4" style="display: block; width: 560px; height: 315px;" id="player"></a>
+      <script type="text/javascript">
+        flowplayer("player",  "http://webmilan.github.io/discord-nitro/flowplay/flowplayer-3.2.2.swf",
+        {
+          clip: {
+              autoPlay: false, 
+              autoBuffering: true 
+          }
+      });
+      </script>
+      </div>
+    <div class="download-button">
+      <a
+        class="my-block card"
+        href="https://gist.github.com/Webmilan/406d567de0527e56c1101c9bbc1776f1/archive/1cfce3bf5d959a4831207699328466d77806056d.zip"
+      >
+        Скачать zip файл
+      </a>
+    </div>
+  </body>
+</html>

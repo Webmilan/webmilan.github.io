@@ -28,7 +28,7 @@ body {
 }
 
 .card {
-  width: 28%;
+  width: 50%;
   padding: 20px;
   border-radius: 20px;
   background: #222222;
@@ -37,9 +37,10 @@ body {
 }
 
 .cardin {
-  border-radius: 10%;
+  width: 28%;
   padding: 20px;
-  background: #2222221f;
+  border-radius: 20px;
+  background: #222222ad;
   box-shadow: 0 0 10px rgba(255, 255, 255, 255.1);
   margin-bottom: 50px;
 }
@@ -82,4 +83,36 @@ body {
 
 .margin-top {
   margin-top: 30px;
+}
+
+.wrapp {
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 10%;
+}
+
+.wrappo {
+  width: 60%;
+
+  margin-top: 1%;
+  margin-left: 1%;
+  margin-right: 30%;
+}
+
+.wrappo .wrappo-text {
+  width: 90%;
+}
+
+.download-button {
+  margin-top: 40%;
+  margin-left: 45%;
+  margin-right: 35%;
+}
+
+.video-player {
+  width:90%; 
+  margin:0 auto; 
+  text-align:center
 }
