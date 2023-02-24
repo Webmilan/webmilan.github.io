@@ -25,6 +25,7 @@ a,a:hover{
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .page-title {
@@ -36,7 +37,7 @@ a,a:hover{
 }
 
 .card {
-  width: 50%;
+  width: 100%;
   padding: 20px;
   border-radius: 20px;
   background: #222222;
@@ -121,11 +122,32 @@ a,a:hover{
 }
 
 .project-card {
-  width: 500px;
-  height: 150px;
+  width: 300px;
+  height: 500px;
   padding: 20px;
   border-radius: 20px;
   background: #222222ad;
   box-shadow: 0 0 10px rgba(255, 255, 255, 255.1);
   margin-bottom: 50px;
+}
+
+.project-card .title {
+  margin-top: 10px;
+  font-size: 25px;
+  color: #ffffff;
+  margin-bottom: 20px;
+
+}
+
+.img-title {
+  width: 240px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.block {
+  display: none; /* Початково ховаємо всі блоки */
+}
+.block.active {
+  display: block; /* Відображаємо активний блок */
 }

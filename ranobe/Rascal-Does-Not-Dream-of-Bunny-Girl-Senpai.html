@@ -17,7 +17,18 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <script>
+      var xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          document.getElementById("file-content").innerText = this.responseText;
+        }
+      };
+      xhttp.open("GET", "txt/bunny-girl.txt", true);
+      xhttp.send();
+    </script>
   </head>
   <body style="background: url()">
     <!--Меню панель-->
@@ -44,7 +55,7 @@
                   title="Главная страница"
                   class="nav-link active"
                   aria-current="page"
-                  href="index.html"
+                  href="/index.html"
                 >
                   Home
                 </a>
@@ -53,7 +64,7 @@
                 <a
                   title="Список моих IT проэктов"
                   class="nav-link active"
-                  href="projects.html"
+                  href="/projects.html"
                   >Projects</a
                 >
               </li>
@@ -61,7 +72,7 @@
                 <a
                 title="Ранобе на українській мові"
                 class="nav-link active"
-                href="ranobe.html">
+                href="/ranobe.html">
                   Ranobe
                 </a>
               </li>
@@ -72,7 +83,9 @@
 
     <!--Основна частина-->
 
-      
+    <div class="card wrapper">
+      <div class="text" id="file-content"></div>
+    </div>
 
   </body>
 </html>
