@@ -58,7 +58,7 @@ a,a:hover{
 }
 
 .card {
-  width: 100%;
+  width: 90%;
   padding: 1.25em;
   border-radius: 1.25em;
   background: #222222;
@@ -97,11 +97,13 @@ a,a:hover{
   margin-bottom: 1.25em;
 }
   
-  .card .text {
+.card .text {
   margin: 0;
   font-size: 1.125em;
   line-height: 1.5;
   color: #ffffff;
+  width: 92%;
+
 }
 
 .my-block {
@@ -225,8 +227,13 @@ a,a:hover{
 }
 
 .nasad {
-  margin-top: 0.938rem;
-  left: 15.625em; 
+  margin-top: 1.5rem;
+  margin-left: 13.5%;
+}
+
+.vpered {
+  margin-top: 1.5rem;
+  margin-left: 59%;
 }
 
 .ranobe-title {
@@ -238,12 +245,6 @@ a,a:hover{
   line-height: 2.625rem; 
   text-transform: uppercase;
   text-shadow: 0 0.125em white, 0 0.188em #777; 
-}
-
-
-.vpered {
-  margin-top: 1.5rem;
-  left: 86.875rem;
 }
 
 .slide.active {
@@ -258,7 +259,6 @@ a,a:hover{
   display: none;
 }
 
-/* Показати блоки, які є видимими */
 .slides .slide {
   display: none;
 }
