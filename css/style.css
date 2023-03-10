@@ -6,6 +6,7 @@
 
 html, body {
   height: 100%;
+  
 }
 
 body {
@@ -15,87 +16,90 @@ body {
   background: rgb(0, 0, 0);
 }
 
+
 a,a:hover{
   outline: none;
   text-decoration: none;
   color: #f8f8f8;
   }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   background: #444444;
-  width: 14px;
+  width: 1em;
 }
-::-webkit-scrollbar-track{
-  box-shadow: inset 0 0 10px rgba(12, 12, 12, 0.4);
-  border-radius: 10px;
+    
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0.1em rgba(12, 12, 12, 0.4);
+  border-radius: 1em;
 }
-::-webkit-scrollbar-thumb{
-  background: linear-gradient(125deg,#000000,#181818);
-  border-radius: 12px;
+    
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(125deg, #000000, #181818);
+  border-radius: 1.2em;
 }
-
+    
 .wrapper {
-  max-width: 1400px;
+  max-width: 87.5em;
   margin: 0 auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 30px;
+  margin-top: 1.875em;
 }
 
 .page-title {
-  margin-top: 50px;
-  margin-bottom: 100px;
+  margin-top: 3.125em;
+  margin-bottom: 6.25em;
   text-align: center;
-  font-size: 46px;
+  font-size: 2.875em;
   color: #222222;
 }
 
 .card {
   width: 100%;
-  padding: 20px;
-  border-radius: 20px;
+  padding: 1.25em;
+  border-radius: 1.25em;
   background: #222222;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 255.1);
-  margin-bottom: 50px;
+  box-shadow: 0 0 0.625em rgba(255, 255, 255, 0.1);
+  margin-bottom: 3.125em;
 }
 
 .cardin {
   width: 20%;
-  padding: 20px;
-  border-radius: 20px;
-  background: #222222ad;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 255.1);
-  margin-bottom: 50px;
+  padding: 1.25em;
+  border-radius: 1.25em;
+  background: rgba(34, 34, 34, 0.678);
+  box-shadow: 0 0 0.625em rgba(255, 255, 255, 0.1);
+  margin-bottom: 3.125em;
 }
 
 .cardin .title {
-  font-size: 32px;
+  font-size: 2em;
   color: #ffffff;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
   text-align: center;
 }
 
 .cardin .text {
   margin: 0;
-  font-size: 20px;
+  font-size: 1.25em;
   line-height: 1.5;
   color: #ffffff;
 }
 
 .card .title {
-  font-size: 32px;
+  font-size: 2em;
   color: #ffffff;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
 }
-
-.card .text {
+  
+  .card .text {
   margin: 0;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 1.5;
   color: #ffffff;
 }
@@ -109,7 +113,7 @@ a,a:hover{
 }
 
 .margin-top {
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
 
 .wrapp {
@@ -139,33 +143,32 @@ a,a:hover{
 }
 
 .project-card {
-  width: 300px;
-  height: 500px;
-  padding: 20px;
-  border-radius: 20px;
+  width: 20rem;
+  height: 33.33333rem;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
   background: #222222ad;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 255.1);
-  margin-bottom: 50px;
+  box-shadow: 0 0 0.625rem rgba(255, 255, 255, 0.1);
+  margin-bottom: 3.125rem;
 }
-
+  
 .project-card .title {
-  margin-top: 10px;
-  font-size: 25px;
+  margin-top: 0.625rem;
+  font-size: 1.5625rem;
+  line-height: 1.2;
   color: #ffffff;
-  margin-bottom: 20px;
-
+  margin-bottom: 1.25rem;
 }
 
 .img-title {
-  width: 240px;
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 15rem;
+  margin-left: 0.625rem; 
+  margin-right: 0.625rem;
 }
-
 
 .center {
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   width: 50%;
 }
 
@@ -222,27 +225,26 @@ a,a:hover{
 }
 
 .nasad {
-  margin-top: 15px;
-  left: 250px;
+  margin-top: 0.938rem;
+  left: 15.625em; 
 }
 
 .ranobe-title {
-  margin-top: 10px;
+  margin-top: 0.625em;
   color: #343434;
   font-weight: normal;
   font-family: 'Ultra', sans-serif;  
-  font-size: 36px;
-  line-height: 42px;
+  font-size: 2.25rem; 
+  line-height: 2.625rem; 
   text-transform: uppercase;
-  text-shadow: 0 2px white, 0 3px #777;
+  text-shadow: 0 0.125em white, 0 0.188em #777; 
 }
+
 
 .vpered {
-  margin-top: 15px;
-  left: 1390px;
+  margin-top: 1.5rem;
+  left: 86.875rem;
 }
-
-
 
 .slide.active {
   display: block;
@@ -266,8 +268,8 @@ a,a:hover{
 }
 
 .cssbuttons-io-button {
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 0.625rem;
+  margin-top: 0.625rem;
   display: flex;
   align-items: center;
   font-family: inherit;
@@ -295,7 +297,7 @@ a,a:hover{
   box-shadow: 0 0.3em 1em -0.5em #28272cbe;
  }
 
- .btn-up {
+.btn-up {
   position: fixed;
   background-color: #222222;
   right: 20px;
@@ -305,6 +307,7 @@ a,a:hover{
   width: 66px;
   height: 66px;
 }
+
 
 .btn-up::before {
   content: "";
