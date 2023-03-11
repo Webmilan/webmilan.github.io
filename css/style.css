@@ -329,3 +329,9 @@ a,a:hover{
     background-color: #131313; /* цвет заднего фона при наведении */
   }
 }
+
+.img-ranobe {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
