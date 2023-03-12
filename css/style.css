@@ -242,12 +242,14 @@ a,a:hover{
 
 .nasad {
   margin-top: 1.5rem;
-  margin-left: 13.5%;
+  margin-left: 10%;
 }
 
 .vpered {
+  float: right;
   margin-top: 1.5rem;
-  margin-left: 59%;
+  margin-right: 10%;
+  
 }
 
 .ranobe-title {
